@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj": {}
+    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj": {
+    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj",
+        "projectUniqueName": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj",
         "projectName": "Hospital.Center",
-        "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj",
+        "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Center\\Hospital.Center.csproj",
         "packagesPath": "C:\\Users\\ure\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Center\\obj\\",
+        "outputPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Center\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ure\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\Hospital.Common.csproj": {
-                "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\Hospital.Common.csproj"
+              "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\Hospital.Domain.csproj": {
+                "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\Hospital.Domain.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.16, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -69,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\Hospital.Common.csproj": {
+    "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\Hospital.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\Hospital.Common.csproj",
-        "projectName": "Hospital.Common",
-        "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\Hospital.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\Hospital.Domain.csproj",
+        "projectName": "Hospital.Domain",
+        "projectPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\Hospital.Domain.csproj",
         "packagesPath": "C:\\Users\\ure\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\final\\HospitalGroup\\Hospital.Common\\obj\\",
+        "outputPath": "C:\\Users\\ure\\Desktop\\Hospital - Vladan Grgur\\git-published\\HospitalGroup\\Hospital.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ure\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,6 +106,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

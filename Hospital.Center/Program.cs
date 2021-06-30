@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Hospital.Center
+namespace HospitalGroup.Center
 {
     public class Program
     {
@@ -21,6 +21,7 @@ namespace Hospital.Center
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+            .ConfigureLogging(logg => logg.AddConsole());
     }
 }
