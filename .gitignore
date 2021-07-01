@@ -8,3 +8,6 @@ bin
 /obj
 obj
 packages
+
+/Hospital.Pharmacy/node_modules
+/Hospital.Pharmacy/dist

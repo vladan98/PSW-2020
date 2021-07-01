@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package recipePackage;
+
+option csharp_namespace = "Hospital.Center";
+
+service recipeService {
+    rpc AsignRecipe(AsignRecipeDTO) returns (AsignRecipeDTO) {};
+    rpc GetAll(Empty) returns (RecipesResponse) {};
+}
+
+message Empty {}
+
+message Recipe {
+    int32 id = 1;
+    string medication = 2;
+}
+
+message RecipesResponse {
+    repeated Recipe recipes = 1;
+}
+
+message AsignRecipeDTO {
+    int32 recipeId = 1;
+    int32 patientId = 2;
+}

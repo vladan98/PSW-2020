@@ -18,6 +18,7 @@ using Hospital.Center.Services;
 using Hospital.Center.Services.Abstract;
 using Hospital.Center;
 using Hospital.Center.Infrastructure;
+using Hospital.Center.GRPC.Abstract;
 
 namespace HospitalGroup.Center
 {
@@ -50,6 +51,7 @@ namespace HospitalGroup.Center
             services.AddTransient<IAppointmentRepository, AppointmentRepository>();
             services.AddTransient<IWorkDayRepository, WorkDayRepository>();
             services.AddTransient<IReferralRepository, ReferralRepository>();
+            services.AddTransient<IGRPCClient, GRPCClient>();
 
             services.AddScoped<IRegisteredUserService, RegisteredUserService>();
             services.AddScoped<IPatientService, PatientService>();
@@ -58,6 +60,7 @@ namespace HospitalGroup.Center
             services.AddScoped<IFeedbackService, FeedbackService>();
             services.AddScoped<IAppointmentService, AppointmentService>();
             services.AddScoped<IReferralService, ReferralService>();
+            services.AddScoped<IRecipeService, RecipeService>();
 
             services.AddAuthentication(auth =>
             {
