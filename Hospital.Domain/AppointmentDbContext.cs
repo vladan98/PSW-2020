@@ -13,6 +13,9 @@ namespace Hospital.Center.Repository
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Administrator> Administrators { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<Referral> Referrals { get; set; }
+        public DbSet<WorkDay> WorkDays { get; set; }
 
 
 

@@ -47,12 +47,17 @@ namespace HospitalGroup.Center
             services.AddTransient<IPatientRepository, PatientRepository>();
             services.AddTransient<IFeedbackRepository, FeedbackRepository>();
             services.AddTransient<IDoctorRepository, DoctorRepository>();
+            services.AddTransient<IAppointmentRepository, AppointmentRepository>();
+            services.AddTransient<IWorkDayRepository, WorkDayRepository>();
+            services.AddTransient<IReferralRepository, ReferralRepository>();
 
             services.AddScoped<IRegisteredUserService, RegisteredUserService>();
             services.AddScoped<IPatientService, PatientService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IDoctorService, DoctorService>();
             services.AddScoped<IFeedbackService, FeedbackService>();
+            services.AddScoped<IAppointmentService, AppointmentService>();
+            services.AddScoped<IReferralService, ReferralService>();
 
             services.AddAuthentication(auth =>
             {

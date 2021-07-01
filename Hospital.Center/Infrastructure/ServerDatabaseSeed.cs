@@ -20,7 +20,75 @@ namespace Hospital.Center.Infrastructure
         public void Seed()
         {
             SeedUsers(context);
+            SeedAppointments(context);
+            SeedWorkDays(context);
+            SeedReferrals(context);
             SeedFeedback(context);
+        }
+        private static void SeedAppointments(HospitalDbContext context)
+        {
+            context.Add(new Appointment
+            {
+                Id = 1,
+                StartTime = new DateTime(2021, 7, 10, 14, 00, 0),
+                EndTime = new DateTime(2021, 7, 10, 14, 15, 0),
+                TypeOfAppointment = TypeOfAppointment.EXAMINATION,
+                Description = "regular examination",
+                DoctorId = 1,
+                PatientId = 6
+            });
+            context.Add(new Appointment
+            {
+                Id = 2,
+                StartTime = new DateTime(2021, 7, 10, 15, 00, 0),
+                EndTime = new DateTime(2021, 7, 10, 15, 15, 0),
+                TypeOfAppointment = TypeOfAppointment.EXAMINATION,
+                Description = "regular examination",
+                DoctorId = 1,
+                PatientId = 6,
+                Canceled = true
+            });
+            context.Add(new Appointment
+            {
+                Id = 3,
+                StartTime = new DateTime(2021, 5, 11, 14, 00, 0),
+                EndTime = new DateTime(2021, 5, 11, 14, 15, 0),
+                TypeOfAppointment = TypeOfAppointment.EXAMINATION,
+                Description = "regular examination",
+                DoctorId = 1,
+                PatientId = 7
+            });
+            context.Add(new Appointment
+            {
+                Id = 4,
+                StartTime = new DateTime(2021, 5, 11, 14, 00, 0),
+                EndTime = new DateTime(2021, 5, 11, 14, 15, 0),
+                TypeOfAppointment = TypeOfAppointment.SURGERY,
+                Description = "Hip removal",
+                DoctorId = 2,
+                PatientId = 6
+            });
+
+            context.SaveChanges();
+        }
+
+
+        private static void SeedWorkDays(HospitalDbContext context)
+        {
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 10), StartTime = 16, EndTime = 23, DoctorId = 1 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 11), StartTime = 16, EndTime = 23, DoctorId = 1 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 13), StartTime = 16, EndTime = 23, DoctorId = 1 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 12), StartTime = 16, EndTime = 23, DoctorId = 4 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 13), StartTime = 16, EndTime = 23, DoctorId = 2 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 14), StartTime = 16, EndTime = 23, DoctorId = 3 });
+            context.Add(new WorkDay { Date = new DateTime(2021, 07, 15), StartTime = 16, EndTime = 23, DoctorId = 2 });
+            context.SaveChanges();
+        }
+        private static void SeedReferrals(HospitalDbContext context)
+        {
+            context.Add(new Referral { PatientId = 6, DoctorId = 2, Specialization = Specialization.SURGEON, Used = false });
+            context.Add(new Referral { PatientId = 6, DoctorId = 2, Specialization = Specialization.SURGEON, Used = true });
+            context.SaveChanges();
         }
         private static void SeedUsers(HospitalDbContext context)
         {
