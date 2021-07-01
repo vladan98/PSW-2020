@@ -81,6 +81,10 @@ C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-final\HospitalGroup\Hospital.Ce
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-final\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-final\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.csproj.CoreCompileInputs.cache
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-final\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.AssemblyInfoInputs.cache
+C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.AssemblyInfo.cs
+C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.csproj.CoreCompileInputs.cache
+C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -118,10 +122,6 @@ C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospita
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\Hospital.Domain.dll
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\bin\Debug\netcoreapp3.1\Hospital.Domain.pdb
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.csprojAssemblyReference.cache
-C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.AssemblyInfoInputs.cache
-C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.AssemblyInfo.cs
-C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.csproj.CoreCompileInputs.cache
-C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.RazorTargetAssemblyInfo.cache
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\Hospital.Center.csproj.CopyComplete
 C:\Users\ure\Desktop\Hospital - Vladan Grgur\git-published\HospitalGroup\Hospital.Center\obj\Debug\netcoreapp3.1\staticwebassets\Hospital.Center.StaticWebAssets.Manifest.cache

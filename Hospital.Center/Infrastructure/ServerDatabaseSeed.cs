@@ -20,6 +20,7 @@ namespace Hospital.Center.Infrastructure
         public void Seed()
         {
             SeedUsers(context);
+            SeedFeedback(context);
         }
         private static void SeedUsers(HospitalDbContext context)
         {
@@ -121,6 +122,15 @@ namespace Hospital.Center.Infrastructure
                 Blocked = true,
                 ShouldBeBlocked = false
             });
+            context.SaveChanges();
+        }
+        private static void SeedFeedback(HospitalDbContext context)
+        {
+            context.Add(new Feedback { Id = 1, PatientId = 7, Title = "Broken", Content = "Terible place, never coming again!", Published = false });
+            context.Add(new Feedback { Id = 2, PatientId = 7, Title = "Doctors", Content = "Great job!", Published = true });
+            context.Add(new Feedback { Id = 3, PatientId = 7, Title = "Hospital", Content = "It can get too cold sometimes", Published = true });
+            context.Add(new Feedback { Id = 4, PatientId = 7, Title = "Nurce", Content = "Maria helped me lot!", Published = true });
+            context.Add(new Feedback { Id = 5, PatientId = 7, Title = "Patients", Content = "Provide some more water!", Published = false });
             context.SaveChanges();
         }
 
