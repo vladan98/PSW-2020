@@ -16,6 +16,7 @@ exports[`DoctorDashboard should render doctor dashboard 1`] = `
         >
           <button
             class="MuiButtonBase-root MuiCardActionArea-root"
+            data-cy="view-assign-recipes-btn"
             tabindex="0"
             type="button"
           >
@@ -41,6 +42,7 @@ exports[`DoctorDashboard should render doctor dashboard 1`] = `
         >
           <button
             class="MuiButtonBase-root MuiCardActionArea-root"
+            data-cy="add-referral-btn"
             tabindex="0"
             type="button"
           >

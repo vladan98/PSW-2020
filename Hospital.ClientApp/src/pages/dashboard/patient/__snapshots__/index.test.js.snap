@@ -16,6 +16,7 @@ exports[`PatientDashboard should render patient dashboard 1`] = `
         >
           <button
             class="MuiButtonBase-root MuiCardActionArea-root"
+            data-cy="schedule-appointment-btn"
             tabindex="0"
             type="button"
           >
@@ -41,6 +42,7 @@ exports[`PatientDashboard should render patient dashboard 1`] = `
         >
           <button
             class="MuiButtonBase-root MuiCardActionArea-root"
+            data-cy="appointments-list-btn"
             tabindex="0"
             type="button"
           >
@@ -66,6 +68,7 @@ exports[`PatientDashboard should render patient dashboard 1`] = `
         >
           <button
             class="MuiButtonBase-root MuiCardActionArea-root"
+            data-cy="leave-feedback-btn"
             tabindex="0"
             type="button"
           >

@@ -75,6 +75,7 @@ const Register = () => {
                 </Typography>
                 <form className={classes.form} onSubmit={handleSubmit(onSubmit)} noValidate>
                     <TextField
+                        data-cy="register-firstName-input"
                         {...register("firstName")}
                         variant="outlined"
                         margin="normal"
@@ -83,6 +84,7 @@ const Register = () => {
                         autoFocus
                     />
                     <TextField
+                        data-cy="register-lastName-input"
                         {...register("lastName")}
                         variant="outlined"
                         margin="normal"
@@ -94,27 +96,30 @@ const Register = () => {
                         <FormControl variant="outlined" margin="normal" fullWidth >
                             <InputLabel >Choosen Doctor</InputLabel>
                             <Select
+                                data-cy="register-chosenDoctorId-input"
                                 defaultValue={doctors[0].id}
                                 {...register("chosenDoctorId")}
                                 label="Choosen Doctor"
                             >
                                 {doctors.map((d, i) => <MenuItem
-                                    key={d.id} value={d.id}>{d.firstName + " " + d.lastName}</MenuItem>)}
+                                    data-cy={`register-chosenDoctorId-input-${i}`} key={d.id} value={d.id}>{d.firstName + " " + d.lastName}</MenuItem>)}
                             </Select>
                         </FormControl> :
                         <CircularProgress />}
                     <FormControl variant="outlined" margin="normal" fullWidth >
                         <InputLabel >Gender</InputLabel>
                         <Select
+                            data-cy="register-gender-input"
                             defaultValue={"0"}
                             {...register("gender")}
                             label="Gender"
                         >
-                            <MenuItem value={"0"}>Male</MenuItem>
-                            <MenuItem value={"1"}>Female</MenuItem>
+                            <MenuItem data-cy="register-gender-input-0" value={"0"}>Male</MenuItem>
+                            <MenuItem data-cy="register-gender-input-2" value={"1"}>Female</MenuItem>
                         </Select>
                     </FormControl>
                     <TextField
+                        data-cy="register-username-input"
                         {...register("username")}
                         variant="outlined"
                         margin="normal"
@@ -124,6 +129,7 @@ const Register = () => {
                         autoFocus
                     />
                     <TextField
+                        data-cy="register-password-input"
                         {...register("password")}
                         variant="outlined"
                         margin="normal"
@@ -134,6 +140,7 @@ const Register = () => {
                         type="password"
                     />
                     <Button
+                        data-cy="register-submit"
                         type="submit"
                         fullWidth
                         variant="contained"
@@ -145,6 +152,7 @@ const Register = () => {
                     <Grid container>
                         <Grid item>
                             <Link
+                                data-cy="register-to-login-redirect"
                                 to="/login">
                                 {"Already have an account? Sign In"}
                             </Link>

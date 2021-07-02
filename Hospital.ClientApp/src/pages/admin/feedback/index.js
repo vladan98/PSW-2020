@@ -86,6 +86,7 @@ const FeedbackList = () => {
                                                 <TableCell align="center">{singleFeedback.content}</TableCell>
                                                 <TableCell align="center">
                                                     <Button
+                                                        data-cy={`feedback-list-item-${singleFeedback.id}`}
                                                         onClick={() => publishFeedback(singleFeedback.id)}
                                                         color="primary"
                                                     >

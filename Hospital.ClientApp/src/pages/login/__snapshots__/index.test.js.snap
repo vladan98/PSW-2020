@@ -19,6 +19,7 @@ exports[`Login should render login page with form 1`] = `
       >
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="login-username-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
@@ -61,6 +62,7 @@ exports[`Login should render login page with form 1`] = `
         </div>
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="login-password-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused Mui-required Mui-required"
@@ -103,6 +105,7 @@ exports[`Login should render login page with form 1`] = `
         </div>
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-3 MuiButton-containedPrimary MuiButton-fullWidth"
+          data-cy="login-submit"
           tabindex="0"
           type="submit"
         >
@@ -122,6 +125,7 @@ exports[`Login should render login page with form 1`] = `
             class="MuiGrid-root MuiGrid-item"
           >
             <a
+              data-cy="login-to-register-redirect"
               href="/register"
             >
               Don't have an account? Sign Up

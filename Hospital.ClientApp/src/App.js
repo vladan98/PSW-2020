@@ -54,15 +54,15 @@ function App() {
         />
         <Toolbar>
           <div className={classes.menu}>
-            <Button onClick={() => history.push('/')} color="inherit"  >
+            <Button data-cy="header-homepage" onClick={() => history.push('/')} color="inherit"  >
               Hospital
             </Button>
-            {user && <Button onClick={() => history.push('/dashboard')} color="inherit"  >
+            {user && <Button data-cy="header-dashboard" onClick={() => history.push('/dashboard')} color="inherit"  >
               Dashboard
             </Button>}
           </div>
           {location.pathname !== "/login" && (user ?
-            <Button onClick={logout} color="inherit">Logout</Button> :
+            <Button data-cy="header-logout" onClick={logout} color="inherit">Logout</Button> :
             <Button onClick={() => history.push('/login')} color="inherit">Login</Button>)}
         </Toolbar>
       </AppBar>

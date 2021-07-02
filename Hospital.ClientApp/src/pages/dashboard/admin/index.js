@@ -27,7 +27,7 @@ const AdminDashboard = () => {
             <div className={classes.paper}>
                 <Grid item xs={12} >
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/admin/patients")}>
+                        <CardActionArea data-cy="malicious-patients-btn" onClick={() => history.push("/admin/patients")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     View Malicious patients
@@ -36,7 +36,7 @@ const AdminDashboard = () => {
                         </CardActionArea>
                     </Card>
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/admin/feedback")}>
+                        <CardActionArea data-cy="publish-feedback-btn" onClick={() => history.push("/admin/feedback")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     View feedback

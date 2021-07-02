@@ -27,7 +27,7 @@ const PatientDashboard = () => {
             <div className={classes.paper}>
                 <Grid item xs={12} >
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/patient/appointments/add")}>
+                        <CardActionArea data-cy="schedule-appointment-btn" onClick={() => history.push("/patient/appointments/add")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Schedule Appointment
@@ -36,7 +36,7 @@ const PatientDashboard = () => {
                         </CardActionArea>
                     </Card>
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/patient/appointments")}>
+                        <CardActionArea data-cy="appointments-list-btn" onClick={() => history.push("/patient/appointments")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     View Appointments
@@ -45,7 +45,7 @@ const PatientDashboard = () => {
                         </CardActionArea>
                     </Card>
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/patient/feedback/add")}>
+                        <CardActionArea data-cy="leave-feedback-btn" onClick={() => history.push("/patient/feedback/add")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Leave Feedback

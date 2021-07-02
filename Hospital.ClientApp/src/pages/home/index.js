@@ -63,7 +63,7 @@ const Home = () => {
                     <Grid item align="center" xs={12} >
                         {!loading ?
                             feedback.length > 0 ? feedback.map(f => (
-                                <Grid item xs={12} key={f.id} >
+                                <Grid item xs={12} key={f.id} data-cy={`feedback-item-${f.id}`} >
                                     <Card className={classes.card}>
                                         <CardContent>
                                             <Typography gutterBottom variant="h5" component="h2">

@@ -60,6 +60,7 @@ const Login = () => {
                 </Typography>
                 <form className={classes.form} onSubmit={handleSubmit(onSubmit)} noValidate>
                     <TextField
+                        data-cy="login-username-input"
                         {...register("username")}
                         variant="outlined"
                         margin="normal"
@@ -69,6 +70,7 @@ const Login = () => {
                         autoFocus
                     />
                     <TextField
+                        data-cy="login-password-input"
                         {...register("password")}
                         variant="outlined"
                         margin="normal"
@@ -84,12 +86,14 @@ const Login = () => {
                         variant="contained"
                         color="primary"
                         className={classes.submit}
+                        data-cy="login-submit"
                     >
                         Sign In
                     </Button>
                     <Grid container>
                         <Grid item>
                             <Link
+                                data-cy="login-to-register-redirect"
                                 to="/register">
                                 {"Don't have an account? Sign Up"}
                             </Link>

@@ -26,7 +26,7 @@ const DoctorDashboard = () => {
             <div className={classes.paper}>
                 <Grid item xs={12} >
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/doctor/recipes")}>
+                        <CardActionArea data-cy="view-assign-recipes-btn" onClick={() => history.push("/doctor/recipes")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     View And Assign Recipes
@@ -35,7 +35,7 @@ const DoctorDashboard = () => {
                         </CardActionArea>
                     </Card>
                     <Card className={classes.card}>
-                        <CardActionArea onClick={() => history.push("/doctor/referral/add")}>
+                        <CardActionArea data-cy="add-referral-btn" onClick={() => history.push("/doctor/referral/add")}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Add Referral

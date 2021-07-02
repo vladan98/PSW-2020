@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentsList should render page with loading spinner 1`] = `
+<div>
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <div
+      class="makeStyles-paper-1"
+    >
+      <div
+        align="center"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-switch-4"
+          data-cy="toggle-list-btn"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Display past appointments
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostFeedback should render post feedback form 1`] = `
+<div>
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthXs"
+  >
+    <div
+      class="makeStyles-paper-1"
+    >
+      <h2
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        Leave Feedback
+      </h2>
+      <form
+        class="makeStyles-form-2"
+        novalidate=""
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="leave-feedback-title-input"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused Mui-required Mui-required"
+            data-shrink="true"
+          >
+            Title
+            <span
+              aria-hidden="true"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               
+              *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input"
+              name="title"
+              required=""
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="PrivateNotchedOutline-legendLabelled-6 PrivateNotchedOutline-legendNotched-7"
+              >
+                <span>
+                  Title
+                   *
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="leave-feedback-content-input"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+            data-shrink="false"
+          >
+            Content
+            <span
+              aria-hidden="true"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               
+              *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+          >
+            <textarea
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+              name="content"
+              required=""
+              rows="6"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="PrivateNotchedOutline-legendLabelled-6"
+              >
+                <span>
+                  Content
+                   *
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-3 MuiButton-containedPrimary MuiButton-fullWidth"
+          data-cy="leave-feedback-submit"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Post
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </form>
+    </div>
+  </main>
+</div>
+`;

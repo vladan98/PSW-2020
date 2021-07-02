@@ -19,6 +19,7 @@ exports[`RegisterPage renders page 1`] = `
       >
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="register-firstName-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
@@ -52,6 +53,7 @@ exports[`RegisterPage renders page 1`] = `
         </div>
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="register-lastName-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
@@ -113,6 +115,7 @@ exports[`RegisterPage renders page 1`] = `
           </label>
           <div
             class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            data-cy="register-gender-input"
           >
             <div
               aria-haspopup="listbox"
@@ -157,6 +160,7 @@ exports[`RegisterPage renders page 1`] = `
         </div>
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="register-username-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
@@ -199,6 +203,7 @@ exports[`RegisterPage renders page 1`] = `
         </div>
         <div
           class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          data-cy="register-password-input"
         >
           <label
             class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused Mui-required Mui-required"
@@ -241,6 +246,7 @@ exports[`RegisterPage renders page 1`] = `
         </div>
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-3 MuiButton-containedPrimary MuiButton-fullWidth"
+          data-cy="register-submit"
           tabindex="0"
           type="submit"
         >
@@ -260,6 +266,7 @@ exports[`RegisterPage renders page 1`] = `
             class="MuiGrid-root MuiGrid-item"
           >
             <a
+              data-cy="register-to-login-redirect"
               href="/login"
             >
               Already have an account? Sign In

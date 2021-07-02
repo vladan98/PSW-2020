@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleAppointment should render page with SearchFilter component 1`] = `
+<div>
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <div
+      class="makeStyles-paper-1"
+    >
+      <div
+        align="center"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-topGap-4"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Hide referrals
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+        <form
+          novalidate=""
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h6"
+          >
+            Search Appointments
+          </h2>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-xs-center"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                data-cy="schedule-startDate-input"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                  data-shrink="true"
+                >
+                  From
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    name="startDate"
+                    type="date"
+                    value="2021-07-02"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-8 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-10 PrivateNotchedOutline-legendNotched-11"
+                    >
+                      <span>
+                        From
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                data-cy="schedule-endDate-input"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-focused Mui-focused"
+                  data-shrink="true"
+                >
+                  To
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    name="endDate"
+                    type="date"
+                    value="2021-07-05"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-8 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-10 PrivateNotchedOutline-legendNotched-11"
+                    >
+                      <span>
+                        To
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                  data-shrink="true"
+                >
+                  Type
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  data-cy="schedule-typeOfAppointment-input"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby="mui-component-select-typeOfAppointment"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                    id="mui-component-select-typeOfAppointment"
+                    role="button"
+                    tabindex="0"
+                  >
+                    Examination
+                  </div>
+                  <input
+                    aria-hidden="true"
+                    class="MuiSelect-nativeInput"
+                    name="typeOfAppointment"
+                    tabindex="-1"
+                    value="0"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-8 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-10 PrivateNotchedOutline-legendNotched-11"
+                    >
+                      <span>
+                        Type
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                  data-shrink="true"
+                >
+                  Priority
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  data-cy="schedule-priority-input"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby="mui-component-select-priority"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                    id="mui-component-select-priority"
+                    role="button"
+                    tabindex="0"
+                  >
+                    None
+                  </div>
+                  <input
+                    aria-hidden="true"
+                    class="MuiSelect-nativeInput"
+                    name="priority"
+                    tabindex="-1"
+                    value="0"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-8 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-10 PrivateNotchedOutline-legendNotched-11"
+                    >
+                      <span>
+                        Priority
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-7 MuiButton-containedPrimary MuiButton-fullWidth"
+                data-cy="schedule-submit"
+                margin="normal"
+                tabindex="0"
+                type="submit"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Search
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </form>
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
