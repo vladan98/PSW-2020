@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render page with loading spinner 1`] = `
+<div>
+  <main
+    class="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div
+      class="makeStyles-paper-1"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h5"
+      >
+        Welcome to Hospital service
+      </h1>
+      <h2
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        Check out feedback from our patients
+      </h2>
+      <div
+        class="MuiGrid-root makeStyles-feedback-2 MuiGrid-container"
+      >
+        <div
+          align="center"
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
