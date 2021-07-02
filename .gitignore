@@ -11,3 +11,5 @@ packages
 
 /Hospital.Pharmacy/node_modules
 /Hospital.Pharmacy/dist
+
+/Hospital.Client/node_modules
